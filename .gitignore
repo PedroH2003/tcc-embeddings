@@ -1,23 +1,17 @@
-# Ambiente virtual (não sobe pra nuvem)
+# Ambiente virtual
 venv/
 env/
 .venv/
 
-# Caches automáticos do Python
+# Caches do Python
 __pycache__/
 *.pyc
 
-# Modelos pesados e arquivos gigantes (bloqueados no GitHub)
-models/word2vec/*.txt
-models/word2vec/*.bin
-models/fasttext/*.txt
-models/fasttext/*.bin
-*.zip
-*.tar.gz
+# Bloqueio total da pasta de modelos e arquivos pesados
+models/
+*.safetensors
+*.bin
+*.txt
 
-# Dados brutos gigantes (você baixa via script)
+# Dados brutos
 data/raw/
-
-# Caso algum modelo Hugging Face seja salvo localmente
-models/transformers/
-.cache/
