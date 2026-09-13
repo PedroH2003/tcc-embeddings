@@ -1,0 +1,19 @@
+{
+    "hardware": {
+        "os": "Windows 10 (64bit)",
+        "cpu": "12th Gen Intel(R) Core(TM) i7-12650H",
+        "physical_cores": 10,
+        "logical_cores": 16,
+        "total_ram_gb": 7.71
+    },
+    "software": {
+        "python": "3.14.3",
+        "torch_cpu": "2.14.0+cpu",
+        "transformers": "5.17.0",
+        "sentence_transformers": "6.0.1",
+        "scikit_learn": "1.9.1",
+        "scipy": "1.18.1",
+        "pandas": "3.0.5",
+        "numpy": "2.5.3"
+    }
+}
