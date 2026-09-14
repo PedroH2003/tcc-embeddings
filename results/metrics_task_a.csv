@@ -1,0 +1,6 @@
+Model,Pearson,Spearman,Latency_per_pair_ms,RAM_Peak_MB
+Word2Vec,0.6185,0.552,0.13,472.3
+FastText,0.6082,0.5452,0.05,1221.8
+MiniLM-L12,0.7721,0.7146,9.23,1185.9
+BERTimbau,0.6715,0.6145,36.43,929.6
+BGE-M3,0.8053,0.7736,119.54,1699.2

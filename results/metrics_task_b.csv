@@ -1,0 +1,6 @@
+Model,Accuracy,Macro_F1,Throughput_sent_per_sec,Latency_per_sent_ms,RAM_Peak_MB
+Word2Vec,90.6,0.9058,20208.3,0.05,472.3
+FastText,90.5,0.9049,29584.7,0.03,1221.8
+MiniLM-L12,94.1,0.941,80.2,12.48,1185.9
+BERTimbau,95.4,0.954,15.9,63.03,929.6
+BGE-M3,96.8,0.968,6.4,155.94,1699.2
