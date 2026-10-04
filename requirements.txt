@@ -7,3 +7,5 @@ tqdm
 transformers
 sentence-transformers
 datasets
+matplotlib
+seaborn
