@@ -9,3 +9,6 @@ sentence-transformers
 datasets
 matplotlib
 seaborn
+torch
+safetensors
+huggingface-hub
